@@ -49,8 +49,8 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 - TwoZero.cpp
 
 ### include:
-- BiQuad.h	
 <a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginDAW.png" align="right" height="403" width="612" ></a>
+- BiQuad.h	
 - DelayL.h	
 - FormSwep.h	
 - OneZero.h	
