@@ -13,7 +13,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 - Additional code by Luke Dahl for calculating filter coefficients and including parameter automation functionality
 - Background image resource (implemented as BinaryData in Juce-Modules) 
 
-## Required:
+## Compilation:
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
 
 ## Source:
