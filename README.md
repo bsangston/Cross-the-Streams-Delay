@@ -15,14 +15,14 @@
 
 ## Source:
 - PluginEditor.h 
-- PluginEditor.cpp //GUI Implementation
+- PluginEditor.cpp (GUI Implementation)
 - PluginProcessor.h
-- PluginProcessor.cpp //The guts of the program
+- PluginProcessor.cpp (The guts of the program)
 
 ### From Luke Dahl:
 - Mu45FilterCalc.h
-- Mu45FilterCalc.cpp //Filter coefficient calculations for several different filter types
-- UParam.h //Allows for automation of VST parameters
+- Mu45FilterCalc.cpp (Filter coefficient calculations for several different filter types)
+- UParam.h (Allows for automation of VST parameters)
 
 ## StkLite 
 ### src
