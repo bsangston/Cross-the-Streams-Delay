@@ -8,7 +8,7 @@
 Intricate pitch-shifting ping-pong delay with an additional centered delay channel. When the signal is streamed to the left channel (ping delay), it is pitched up one octave, and when it is streamed to the right channel (pong delay), it is pitched down one octave. A simple feedback control is associated with the feedback parameters of all delay streams. Additional controls include individual delay times and dry/wet mix for each. Designed to create rich textures from pitched content and implement intricate delay lines with nuanced harmonic content.
 
 ## Included:
-- All audio processing, effect, and GUI code built with the JUCE framework
+- All audio processing and GUI code built with the JUCE application framework
 - [StkLite](https://ccrma.stanford.edu/software/stk/), including base code for delay, filter, and pitch shift objects
 - Additional code by Luke Dahl for calculating filter coefficients and including parameter automation functionality
 - Background image resource (implemented as BinaryData in Juce-Modules) 
