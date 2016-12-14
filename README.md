@@ -1,4 +1,4 @@
-# Cross the Streams Delay VST3 Audio Plugin
+# Cross the Streams Delay VST Audio Plugin
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
@@ -12,11 +12,12 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 - [StkLite](https://ccrma.stanford.edu/software/stk/), including base code for delay, filter, and pitch shift objects
 - Additional code by Luke Dahl for calculating filter coefficients and including parameter automation functionality
 - Background image resource (implemented as BinaryData in Juce-Modules) 
+- Pre-Built VST for MAC OS X
 
 ## Compilation:
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
 - Background image needs to be included in project as binary data, otherwise plugin will build with white text and white sliders on the default white background
-- Once built, the plugin can be loaded into any DAW or program that supports VST3
+- Once built, the plugin can be loaded into any DAW or program that supports VST
 
 ## Source:
 - PluginEditor.h 
@@ -49,6 +50,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 
 ### include:
 - BiQuad.h	
+<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginDAW.png" align="right" height="403" width="612" ></a>
 - DelayL.h	
 - FormSwep.h	
 - OneZero.h	
