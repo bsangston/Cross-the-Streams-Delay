@@ -30,6 +30,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 ## StkLite 
 ### src
 - BiQuad.cpp	
+<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginWindow.png" align="right" height="321" width="456" ></a>
 - DelayA.cpp 
 - Fir.cpp		
 - Iir.cpp		
@@ -60,5 +61,3 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 - OnePole.h
 - Stk.h		
 - TwoZero.h
-
-![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginWindow.png)
