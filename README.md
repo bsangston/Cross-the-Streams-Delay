@@ -2,7 +2,7 @@
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
-![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/Cross%20the%20Streams%20Delay%20Signal%20Flow.png)
+![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/Cross%20the%20Streams%20Delay.png)
 
 ## Included:
 - All audio processing, effect, and GUI code built with the JUCE framework
