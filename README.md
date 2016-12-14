@@ -2,18 +2,18 @@
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
-![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/Cross%20the%20Streams%20Delay.png)
-
 ## Description:
 Intricate pitch-shifting ping-pong delay with an additional centered delay channel. When the signal is streamed to the left channel (ping delay), it is pitched up one octave, and when it is streamed to the right channel (pong delay), it is pitched down one octave. A simple feedback control is associated with the feedback parameters of all delay streams. Additional controls include individual delay times and dry/wet mix for each. Designed to create rich textures from pitched content and implement intricate delay lines with nuanced harmonic content.
 
-![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginWindow.png)
+![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/Cross%20the%20Streams%20Delay.png)
+
+<p><a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginWindow.png" align=left height="321" width="456"></a></p>
 
 ## Included:
 - All audio processing, effect, and GUI code built with the JUCE framework
 - [StkLite](https://ccrma.stanford.edu/software/stk/), including base code for delay, filter, and pitch shift objects
 - Additional code by Luke Dahl for calculating filter coefficients and including parameter automation functionality
-- Background image resource
+- Background image resource (implemented as BinaryData in Juce-Modules) 
 
 ## Required:
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
