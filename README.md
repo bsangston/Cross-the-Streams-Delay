@@ -1,4 +1,4 @@
-# Cross the Streams Delay VST3 Plugin
+# Cross the Streams Delay VST3 Audio Plugin
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
