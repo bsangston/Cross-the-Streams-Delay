@@ -52,9 +52,8 @@ private:
     Label wetCLabel;
     
     
-    //Image compatability
+    //Background image
     Image yourImage;
-    File imageFile;
 
     
     // Method that returns a pointer to the Processor object. This is how the Editor can send data to the processor

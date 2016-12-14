@@ -41,7 +41,7 @@ public:
     int getNumParameters() override;
     float getParameter (int index) override;
     void setParameter (int index, float newValue) override;
-    float getParameterDefaultValue (int index) override;    // STEP 4.7a
+    float getParameterDefaultValue (int index) override;    
 
     const String getParameterName (int index) override;
     const String getParameterText (int index) override;
@@ -68,9 +68,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
     
     
-    //===== ADD NEW STUFF HERE =====================================================
     
-    // STEP 4.1 - Create an enumerated type called 'Parameters' for the User Parameters
+    //Create an enumerated type called 'Parameters' for the User Parameters
     enum Parameters
     {
         dryParam = 0, // set the first to zero
@@ -102,7 +101,7 @@ public:
 private:
     //==============================================================================
     
-    // STEP 6.1 - Add algorithm parameters here
+    // Algorithm parameters here
     float fs;
     float maxDelayMsec = 1500.0;
     float dryGain;
@@ -122,7 +121,7 @@ private:
     //Filters
     stk::BiQuad highpass, lowpassL, lowpassR, lowpass, highpass2, lowpass2;
     
-    // STEP XX - Add any methods used in algorithm parameter calculation or DSP
+    // Methods used in algorithm parameter calculation or DSP
     void calcHighPass();
     void calcLowPass();
     void calcFilterCoeffs();

@@ -7,6 +7,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
+#include "BinaryData.h"
 
 EffectAudioProcessorEditor::EffectAudioProcessorEditor (EffectAudioProcessor& p)
 :   AudioProcessorEditor (&p), processor (p),
@@ -136,11 +137,8 @@ EffectAudioProcessorEditor::EffectAudioProcessorEditor (EffectAudioProcessor& p)
     wetCLabel.setJustificationType(Justification::centred);
     
 
-    //set file location on computer
-    imageFile = File("~/Downloads/BrandonSangstonFinalProject/PluginBackground.jpg");
-    
-    //tell the "yourImage" class to load from the image file that you just set
-    yourImage = ImageFileFormat::loadFrom(imageFile);
+    //load image from binary data
+    yourImage = ImageFileFormat::loadFrom(BinaryData::PluginBackground_jpg, (size_t) BinaryData::PluginBackground_jpgSize);
     
     
     //Set editor size before constructor is finished
