@@ -2,6 +2,8 @@
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
+![alt text](https://github.com/ "Signal Flow Diagram")
+
 ## Included:
 - All audio processing, effect, and GUI code built with the JUCE framework
 - [StkLite](https://ccrma.stanford.edu/software/stk/), including base code for delay, filter, and pitch shift objects
@@ -12,19 +14,20 @@
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
 
 ## Source:
-- PluginEditor.h
-- PluginEditor.cpp
+- PluginEditor.h 
+- PluginEditor.cpp //GUI Implementation
 - PluginProcessor.h
-- PluginProcessor.cpp
-### From Luke Dahl
+- PluginProcessor.cpp //The guts of the program
+
+### From Luke Dahl:
 - Mu45FilterCalc.h
-- Mu45FilterCalc.cpp
-- UParam.h
+- Mu45FilterCalc.cpp //Filter coefficient calculations for several different filter types
+- UParam.h //Allows for automation of VST parameters
 
 ## StkLite 
-#### src
+### src
 - BiQuad.cpp	
-- DelayA.cpp	- 
+- DelayA.cpp 
 - Fir.cpp		
 - Iir.cpp		
 - OneZero.cpp	
@@ -37,7 +40,8 @@
 - PoleZero.cpp	
 - TapDelay.cpp	
 - TwoZero.cpp
-#### include
+
+### include:
 - BiQuad.h	
 - DelayL.h	
 - FormSwep.h	
