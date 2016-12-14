@@ -15,6 +15,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 
 ## Compilation:
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
+- Background image needs to be included in project as binary data, otherwise plugin will build with white text and white sliders on the default white background
 
 ## Source:
 - PluginEditor.h 
