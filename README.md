@@ -10,11 +10,11 @@
 - Additional code by Luke Dahl for calculating filter coefficients and including VST parameter automation functionality
 - Background image resource
 
-  ### Plugin Files:
-  - PluginEditor.h
-  - PluginEditor.cpp
-  - PluginProcessor.h
-  - PluginProcessor.cpp
+### Plugin Files:
+- PluginEditor.h
+- PluginEditor.cpp
+- PluginProcessor.h
+- PluginProcessor.cpp
 
 ## Required:
 - JUCE framework installation required for compilation, found here <https://www.juce.com/> 
