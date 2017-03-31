@@ -2,7 +2,7 @@
   
   Built using JUCE 3.10 class library and API for Mac OSX (C/C++)
 
-![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/Cross%20the%20Streams%20Delay.png)
+![alt text](https://github.com/Bsangston/Cross-the-Streams-Delay/blob/Original/Cross%20the%20Streams%20Delay.png)
 
 ## Description:
 Intricate pitch-shifting ping-pong delay with an additional centered delay channel. When the signal is streamed to the left channel (ping delay), it is pitched up one octave, and when it is streamed to the right channel (pong delay), it is pitched down one octave. A simple feedback control is associated with the feedback parameters of all delay streams. Additional controls include individual delay times and dry/wet mix for each. Designed to create rich textures from pitched content and implement intricate delay lines with nuanced harmonic content.
@@ -33,7 +33,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 ## StkLite 
 ### src
 - BiQuad.cpp	
-<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginWindow.png" align="right" height="321" width="456" ></a>
+<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/Original/PluginWindow.png" align="right" height="321" width="456" ></a>
 - DelayA.cpp 
 - Fir.cpp		
 - Iir.cpp		
@@ -49,7 +49,7 @@ Intricate pitch-shifting ping-pong delay with an additional centered delay chann
 - TwoZero.cpp
 
 ### include:
-<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/master/PluginDAW.png" align="right" height="403" width="612" ></a>
+<a href="url"><img src="https://github.com/Bsangston/Cross-the-Streams-Delay/blob/Original/PluginDAW.png" align="right" height="403" width="612" ></a>
 - BiQuad.h	
 - DelayL.h	
 - FormSwep.h	
